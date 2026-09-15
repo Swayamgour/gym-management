@@ -1,0 +1,104 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Keep environment example
+!.env.example
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# React / Vite Build
+# ==========================================
+dist/
+build/
+.vite/
+.cache/
+
+# ==========================================
+# Coverage / Testing
+# ==========================================
+coverage/
+.nyc_output/
+jest-coverage/
+
+# ==========================================
+# Uploads / User Generated Files
+# ==========================================
+uploads/
+public/uploads/
+storage/
+
+# ==========================================
+# Database / Local Files
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# IDE
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.idea/
+*.iml
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Temporary / Backup Files
+# ==========================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*~
+
+# ==========================================
+# Certificates / Private Keys
+# ==========================================
+*.pem
+*.key
+*.crt
+
+# ==========================================
+# Runtime Files
+# ==========================================
+*.pid
+*.pid.lock
+
+# ==========================================
+# Misc
+# ==========================================
+.npm/
+.eslintcache
