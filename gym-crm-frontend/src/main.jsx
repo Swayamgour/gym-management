@@ -6,6 +6,17 @@ import { Toaster } from 'react-hot-toast';
 import { store } from './app/store';
 import App from './App';
 import './index.css';
+import { registerSW } from "virtual:pwa-register";
+
+registerSW({
+  onNeedRefresh() {
+    console.log("New version available");
+  },
+
+  onOfflineReady() {
+    console.log("App ready to work offline");
+  },
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
