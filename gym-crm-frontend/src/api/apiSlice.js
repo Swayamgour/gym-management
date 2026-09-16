@@ -1,7 +1,8 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { logout } from '../features/auth/authSlice';
 
-const baseUrl = 'https://gym-management-production-48f7.up.railway.app/api/v1'
+// const baseUrl = 'https://gym-management-production-48f7.up.railway.app/api/v1'
+const baseUrl = 'https://gym-management-jbbr.onrender.com/api/v1'
 
 const rawBaseQuery = fetchBaseQuery({
   baseUrl,
