@@ -27,6 +27,7 @@ const whatsappRoutes = require('./src/routes/whatsappRoutes');
 const settingsRoutes = require('./src/routes/settingsRoutes');
 
 const app = express();
+app.set('trust proxy', 1);
 
 app.use(helmet());
 app.use(cors({ origin: '*' }));
